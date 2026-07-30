@@ -159,11 +159,6 @@ To cite the **model itself** (not the paper), use its Hugging Face DOI:
 
 ## Authors & attribution
 
-**Model** (the fine-tuned artifact — Ollama & Hugging Face, DOI `10.57967/hf/9777`):
-
-- **Saket Kumar** — *model author / maintainer* ([`saki007ster`](https://huggingface.co/saki007ster))
-- **Ravish Gupta**
-
 **Paper** (*An Agentic Multi-Agent Architecture for Cybersecurity Risk Management*, arXiv:2603.20131):
 
 - **Ravish Gupta**
