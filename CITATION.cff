@@ -8,19 +8,15 @@ abstract: >-
   supports NIST CSF, CIS Controls, MITRE ATT&CK, and ISO/IEC 27001 framework
   mapping, gap analysis, and prioritized remediation recommendations.
 type: software
+# The model artifact was built by Saket Kumar and Ravish Gupta.
+# (The accompanying paper has five authors — see preferred-citation below.)
 authors:
-  - family-names: Gupta
-    given-names: Ravish
-    # orcid: "https://orcid.org/TBD"  # TBD — add ORCID if available
   - family-names: Kumar
     given-names: Saket
     # orcid: "https://orcid.org/TBD"  # TBD — add ORCID if available
-  - family-names: Sharma
-    given-names: Shreeya
-  - family-names: Dang
-    given-names: Maulik
-  - family-names: Aggarwal
-    given-names: Abhishek
+  - family-names: Gupta
+    given-names: Ravish
+    # orcid: "https://orcid.org/TBD"  # TBD — add ORCID if available
 repository-artifact: "https://huggingface.co/saki007ster/CybersecurityRiskAnalyst"
 url: "https://github.com/ravyg/cybersecurity-risk-analyst"
 license-url: "https://www.llama.com/llama3_1/license/"

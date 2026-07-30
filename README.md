@@ -143,8 +143,8 @@ A machine-readable [`CITATION.cff`](CITATION.cff) is also provided — GitHub wi
 To cite the **model itself** (not the paper), use its Hugging Face DOI:
 
 ```bibtex
-@misc{saket_kumar_2026,
-  author    = {Saket Kumar and Ravish Gupta and Shreeya Sharma and Maulik Dang and Abhishek Aggarwal},
+@misc{kumar2026cybersecurityriskanalyst,
+  author    = {Saket Kumar and Ravish Gupta},
   title     = {CybersecurityRiskAnalyst (Revision 1842e1c)},
   year      = {2026},
   url       = {https://huggingface.co/saki007ster/CybersecurityRiskAnalyst},
@@ -153,16 +153,21 @@ To cite the **model itself** (not the paper), use its Hugging Face DOI:
 }
 ```
 
-> **For academic/professional use, prefer citing the paper ([arXiv:2603.20131](https://arxiv.org/abs/2603.20131)) above** — it credits all five authors and is the primary scholarly reference. The model DOI is best for reproducibility/data-availability statements.
+> **The model artifact was built by Saket Kumar and Ravish Gupta** (hence two authors on the model DOI). **The paper ([arXiv:2603.20131](https://arxiv.org/abs/2603.20131)) has five authors** — for academic/professional use, prefer the paper citation above; use the model DOI for reproducibility/data-availability statements.
 
 ---
 
 ## Authors & attribution
 
-This model and the accompanying paper are the work of:
+**Model** (the fine-tuned artifact — Ollama & Hugging Face, DOI `10.57967/hf/9777`):
+
+- **Saket Kumar** — *model author / maintainer* ([`saki007ster`](https://huggingface.co/saki007ster))
+- **Ravish Gupta**
+
+**Paper** (*An Agentic Multi-Agent Architecture for Cybersecurity Risk Management*, arXiv:2603.20131):
 
 - **Ravish Gupta**
-- **Saket Kumar** — *model author / maintainer* ([`saki007ster` on Ollama](https://ollama.com/saki007ster))
+- **Saket Kumar**
 - **Shreeya Sharma**
 - **Maulik Dang**
 - **Abhishek Aggarwal**
