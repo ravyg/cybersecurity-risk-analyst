@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: >-
+  If you use this model, please cite the accompanying paper (see preferred-citation below).
+title: CybersecurityRiskAnalyst
+abstract: >-
+  A custom fine-tuned Large Language Model designed to act as a senior
+  cybersecurity risk assessor and strategist. Fine-tuned from Llama 3.1 8B;
+  supports NIST CSF, CIS Controls, MITRE ATT&CK, and ISO/IEC 27001 framework
+  mapping, gap analysis, and prioritized remediation recommendations.
+type: software
+authors:
+  - family-names: Gupta
+    given-names: Ravish
+    # orcid: "https://orcid.org/TBD"  # TBD — add ORCID if available
+  - family-names: Kumar
+    given-names: Saket
+    # orcid: "https://orcid.org/TBD"  # TBD — add ORCID if available
+  - family-names: Sharma
+    given-names: Shreeya
+  - family-names: Dang
+    given-names: Maulik
+  - family-names: Aggarwal
+    given-names: Abhishek
+repository-artifact: "https://ollama.com/saki007ster/CybersecurityRiskAnalyst"
+url: "https://github.com/ravyg/cybersecurity-risk-analyst"
+license-url: "https://www.llama.com/llama3_1/license/"
+keywords:
+  - ollama
+  - llm
+  - cybersecurity
+  - risk-analysis
+  - ai-model
+  - fine-tuned-model
+  - nist-csf
+# doi: TBD  # TBD — add DOI (Hugging Face or Zenodo) once minted
+preferred-citation:
+  type: article
+  title: "An Agentic Multi-Agent Architecture for Cybersecurity Risk Management"
+  authors:
+    - family-names: Gupta
+      given-names: Ravish
+    - family-names: Kumar
+      given-names: Saket
+    - family-names: Sharma
+      given-names: Shreeya
+    - family-names: Dang
+      given-names: Maulik
+    - family-names: Aggarwal
+      given-names: Abhishek
+  year: 2026
+  journal: "arXiv preprint arXiv:2603.20131"
+  url: "https://arxiv.org/abs/2603.20131"
+  # doi: TBD  # TBD — add arXiv DOI (10.48550/arXiv.2603.20131) once assigned

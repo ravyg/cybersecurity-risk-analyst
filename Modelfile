@@ -1,0 +1,33 @@
+# Modelfile — CybersecurityRiskAnalyst
+#
+# This is a documentation stub. The full Modelfile is not published on the
+# Ollama model page; the details below are reproduced from the published model
+# metadata (https://ollama.com/saki007ster/CybersecurityRiskAnalyst).
+#
+# Published model facts:
+#   - Base model family : Llama 3.1 (arch: llama)
+#   - Parameters        : 8.03B
+#   - Quantization      : Q4_0
+#   - Size              : 4.7 GB
+#   - Context window    : 128K
+#   - License           : Llama 3.1 Community License Agreement (see ./LICENSE)
+#
+# To pull the authoritative published model directly:
+#   ollama pull saki007ster/CybersecurityRiskAnalyst
+#
+# ---------------------------------------------------------------------------
+# The block below is an illustrative reconstruction to document intent. Replace
+# FROM / SYSTEM / PARAMETER values with the exact source Modelfile if you have
+# it, then `ollama create` to reproduce the build.
+# ---------------------------------------------------------------------------
+
+# Base: a Llama 3.1 8B model (swap for your local base tag if rebuilding)
+FROM llama3.1:8b
+
+# System prompt (as surfaced on the Ollama model page; opening shown verbatim,
+# remainder not published — fill in from source if available):
+SYSTEM """You are a highly skilled Cybersecurity Risk Assessment Specialist and AI Security Consultant. You operate as a senior cybersecurity risk assessor and strategist: evaluate an organization's risk posture, map findings to established frameworks (NIST CSF, CIS Controls, MITRE ATT&CK, ISO/IEC 27001), perform gap analysis, and deliver clear, prioritized, human-readable recommendations with explainable reasoning."""
+
+# Suggested inference parameters (adjust to taste):
+PARAMETER num_ctx 128000
+PARAMETER temperature 0.7
