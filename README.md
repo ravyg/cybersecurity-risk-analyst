@@ -138,6 +138,23 @@ Gupta R, Kumar S, Sharma S, Dang M, Aggarwal A. An Agentic Multi-Agent Architect
 
 A machine-readable [`CITATION.cff`](CITATION.cff) is also provided — GitHub will render a "Cite this repository" button from it.
 
+### Citing the model artifact directly (Hugging Face DOI)
+
+To cite the **model itself** (not the paper), use its Hugging Face DOI:
+
+```bibtex
+@misc{saket_kumar_2026,
+  author    = {Saket Kumar and Ravish Gupta and Shreeya Sharma and Maulik Dang and Abhishek Aggarwal},
+  title     = {CybersecurityRiskAnalyst (Revision 1842e1c)},
+  year      = {2026},
+  url       = {https://huggingface.co/saki007ster/CybersecurityRiskAnalyst},
+  doi       = {10.57967/hf/9777},
+  publisher = {Hugging Face}
+}
+```
+
+> **For academic/professional use, prefer citing the paper ([arXiv:2603.20131](https://arxiv.org/abs/2603.20131)) above** — it credits all five authors and is the primary scholarly reference. The model DOI is best for reproducibility/data-availability statements.
+
 ---
 
 ## Authors & attribution
