@@ -1,6 +1,6 @@
 # CybersecurityRiskAnalyst
 
-> ⭐ **Find this useful? Clone it, [star the repo](https://github.com/ravyg/cybersecurity-risk-analyst), and cite the paper.** If you use this model in academic or professional work, please cite [arXiv:2603.20131](https://arxiv.org/abs/2603.20131) (see [How to cite](#how-to-cite)).
+> ⭐ **Find this useful? Clone it, [star the repo](https://github.com/ravyg/cybersecurity-risk-analyst), and cite the paper.** If you use this model in academic or professional work, please cite [arXiv:2603.20131](https://arxiv.org/abs/2603.20131) (see [How to cite](#how-to-cite)). Model DOI: [`10.57967/hf/9777`](https://doi.org/10.57967/hf/9777).
 
 **CybersecurityRiskAnalyst** is a custom fine-tuned Large Language Model (LLM) designed to act as a senior cybersecurity risk assessor and strategist. It is published on Ollama and has **1,400+ downloads**. This repository makes the model formally citable and links it to the research paper it accompanies.
 
@@ -23,11 +23,9 @@
 
 ## DOI
 
-`TBD — DOI to be added` (Hugging Face or Zenodo — will be minted from a tagged GitHub Release; see [RELEASE.md](RELEASE.md)).
+[![DOI](https://img.shields.io/badge/DOI-10.57967%2Fhf%2F9777-blue)](https://doi.org/10.57967/hf/9777)
 
-<!-- Once minted, uncomment and fill in the badge below:
-[![DOI](https://zenodo.org/badge/DOI/TBD.svg)](https://doi.org/TBD)
--->
+**Model DOI (Hugging Face):** [`10.57967/hf/9777`](https://doi.org/10.57967/hf/9777)
 
 ---
 
@@ -166,5 +164,6 @@ This model is a fine-tuned derivative of **Meta Llama 3.1 8B** and is therefore 
 ## Related
 
 - 📄 **Paper:** [An Agentic Multi-Agent Architecture for Cybersecurity Risk Management](https://arxiv.org/abs/2603.20131) (arXiv:2603.20131)
-- 🤖 **Model:** [saki007ster/CybersecurityRiskAnalyst](https://ollama.com/saki007ster/CybersecurityRiskAnalyst) on Ollama
+- 🤖 **Model (Ollama):** [saki007ster/CybersecurityRiskAnalyst](https://ollama.com/saki007ster/CybersecurityRiskAnalyst)
+- 🤗 **Model (Hugging Face):** [saki007ster/CybersecurityRiskAnalyst](https://huggingface.co/saki007ster/CybersecurityRiskAnalyst) · DOI [`10.57967/hf/9777`](https://doi.org/10.57967/hf/9777)
 - 🛠 **Modelfile:** [Modelfile](Modelfile) in this repo

@@ -21,9 +21,10 @@ authors:
     given-names: Maulik
   - family-names: Aggarwal
     given-names: Abhishek
-repository-artifact: "https://ollama.com/saki007ster/CybersecurityRiskAnalyst"
+repository-artifact: "https://huggingface.co/saki007ster/CybersecurityRiskAnalyst"
 url: "https://github.com/ravyg/cybersecurity-risk-analyst"
 license-url: "https://www.llama.com/llama3_1/license/"
+doi: "10.57967/hf/9777"  # Hugging Face model DOI
 keywords:
   - ollama
   - llm
@@ -32,7 +33,6 @@ keywords:
   - ai-model
   - fine-tuned-model
   - nist-csf
-# doi: TBD  # TBD — add DOI (Hugging Face or Zenodo) once minted
 preferred-citation:
   type: article
   title: "An Agentic Multi-Agent Architecture for Cybersecurity Risk Management"

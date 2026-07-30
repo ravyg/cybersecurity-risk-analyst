@@ -19,25 +19,29 @@ gh release create v1.0.0 \
 
 (Or create it in the GitHub web UI: **Releases → Draft a new release → choose tag `v1.0.0`**.)
 
-## 3. (Optional) Mint a Zenodo DOI  — **TBD**
+## 3. DOI  — ✅ minted (Hugging Face)
 
-> Marked TBD — a DOI (Hugging Face or Zenodo) will be supplied separately and pasted in afterward.
+The model already has a Hugging Face DOI: **[`10.57967/hf/9777`](https://doi.org/10.57967/hf/9777)**.
+It is wired into `README.md` (badge + DOI section) and `CITATION.cff` (top-level `doi:`).
+
+> Optional: you may *also* mint a Zenodo DOI to archive this GitHub repo snapshot itself
+> (distinct from the HF model DOI). Steps below — otherwise skip.
 
 1. Sign in to <https://zenodo.org> with GitHub.
 2. Go to **Settings → GitHub**, find `ravyg/cybersecurity-risk-analyst`, and flip the toggle **ON**.
 3. Cut a **new** GitHub Release *after* enabling the toggle (Zenodo only archives releases created while the toggle is on — re-cut if needed).
 4. Zenodo archives the release and issues a DOI (a version DOI plus a concept DOI that always points to the latest).
 
-## 4. Add the DOI back to the repo — **TBD**
+## 4. Remaining DOI TODO — arXiv DOI for the paper
 
-Once the DOI is minted, update these three places (all currently marked `TBD`):
-
-- **README.md → "DOI" section:** replace `TBD — DOI to be added` with the DOI, and uncomment the badge line, filling in the DOI.
-- **CITATION.cff:** uncomment and fill the top-level `doi:` field (model artifact) and/or the `preferred-citation.doi:` field (paper).
-- **RELEASE.md:** mark this checklist's DOI steps done.
+The **model DOI** is set. The one field still `TBD` is the **paper's** DOI inside
+`CITATION.cff` → `preferred-citation.doi`. arXiv assigns `10.48550/arXiv.2603.20131`
+once the paper is live — uncomment and fill that line then:
 
 ```bash
-git add README.md CITATION.cff RELEASE.md
-git commit -m "docs: add DOI"
+# in CITATION.cff, under preferred-citation:
+#   doi: "10.48550/arXiv.2603.20131"
+git add CITATION.cff
+git commit -m "docs: add arXiv paper DOI"
 git push
 ```
